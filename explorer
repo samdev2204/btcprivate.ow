@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120388060-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120388060-1');
+</script>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="keywords" content="btcp, bitcoin private, privacy coin, zksnarks, lightning network, zcl, wallet, btcppay, cryptocurrency, btcp price">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Block Explorer | Bitcoin Private</title>
+    <link rel="shortcut icon" href="https://btcprivate.org/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />
+    <!-- CSS Files -->
+    <link href="/frontend/default/app.css" rel="stylesheet" />
+    <link href="/frontend/default/style.css" rel="stylesheet" media="screen" />
+    <link href="/sximo5/fonts/icomoon.css" rel="stylesheet" />
+    <link href="/sximo5/fonts/awesome/css/font-awesome.css" rel="stylesheet" />
+    <!-- CSS Just for demo purpose, don't include it in your project --> 
+     <script src="/frontend/default/js/app.js"></script>
+      
+
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
+    </script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">
+    </script>
+    <![endif]-->
+  </head>
+  <body class="index-page sidebar-collapse">
+
+  <div id="header">
+    
+      
+        
+          
+            
+              
+                
+                
+                
+                
+                
+              
+            
+            
+              
+               
+			   
+			   
+               
+               
+               
+				
+                
+                
+				
+                
+				
+               
+			   
+              
+            
+
+          
+          
+        
+      
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://btcprivate.org">
+            <img src="/uploads/images/backend-logo.png" alt="" />
+          </a>
+        </div> 
+         <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+           <ul class="nav navbar-nav  navbar-right">
+    <li><a href="https://btcprivate.org"> Home</a></li>
+                        <li><!-- HOME -->
+                <a
+                                    href="https://btcprivate.org"
+                
+                  class="dropdown-toggle" data-toggle="dropdown" >
+                    <i class=""></i>
+                                            About
+                                                             <b class="caret"></b>
+                                    </a>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                                        <li class="
+                                                ">
+                        <a
+                                                            href="https://btcprivate.org/whybtcp"
+                            
+                        >
+                            <i class=""></i>
+                                                            About BTCP?
+                                                    </a>
+                                                                             <li class="
+                                                ">
+                        <a
+                                                            href="https://btcprivate.org/team"
+                            
+                        >
+                            <i class=""></i>
+                                                            Team
+                                                    </a>
+                                                                             <li class="
+                                                ">
+                        <a
+                                                            href="https://btcprivate.org/hardfork"
+                            
+                        >
+                            <i class=""></i>
+                                                            Hard Fork
+                                                    </a>
+                                                                             <li class="
+                                                ">
+                        <a
+                                                            href="https://btcprivate.org/btcp-whitepaper"
+                            
+                        >
+                            <i class=""></i>
+                                                            Whitepaper
+                                                    </a>
+                                                     </ul>
+                            </li>
+                                <li><!-- HOME -->
+                <a
+                                    href="https://btcprivate.org/exchanges"
+                
+                 >
+                    <i class=""></i>
+                                            Exchanges
+                                                        </a>
+                            </li>
+                                <li><!-- HOME -->
+                <a
+                                    href="https://btcprivate.org/wallets"
+                
+                 >
+                    <i class=""></i>
+                                            Wallets
+                                                        </a>
+                            </li>
+                                <li><!-- HOME -->
+                <a
+                                    href="https://btcprivate.org"
+                
+                  class="dropdown-toggle" data-toggle="dropdown" >
+                    <i class=""></i>
+                                            Resources
+                                                             <b class="caret"></b>
+                                    </a>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                                        <li class="
+                                                ">
+                        <a
+                                                            href="https://btcprivate.org/faq"
+                            
+                        >
+                            <i class=""></i>
+                                                            FAQ
+                                                    </a>
+                                                                             <li class="
+                                                ">
+                        <a
+                                                            href="https://btcprivate.org/press"
+                            
+                        >
+                            <i class=""></i>
+                                                            Press
+                                                    </a>
+                                                                             <li class="
+                                                ">
+                        <a
+                            				target="_blank"
+                                href="https://support.btcprivate.org/"
+                            
+                        >
+                            <i class=""></i>
+                                                            Support
+                                                    </a>
+                                                                             <li class="
+                                                ">
+                        <a
+                            				target="_blank"
+                                href="https://ambassadors.btcprivate.org/"
+                            
+                        >
+                            <i class=""></i>
+                                                            Ambassador Program
+                                                    </a>
+                                                                             <li class="
+                                                ">
+                        <a
+                                                            href="https://btcprivate.org/research"
+                            
+                        >
+                            <i class=""></i>
+                                                            Research Proposals
+                                                    </a>
+                                                     </ul>
+                            </li>
+                                <li><!-- HOME -->
+                <a
+                		    target="_blank"
+                    href="https://github.com/interbiznw/btcpmine"
+                
+                 >
+                    <i class=""></i>
+                                            One Click Miner
+                                                        </a>
+                            </li>
+                                <li><!-- HOME -->
+                <a
+                                    href="https://btcprivate.org"
+                
+                  class="dropdown-toggle" data-toggle="dropdown" >
+                    <i class=""></i>
+                                            Tools
+                                                             <b class="caret"></b>
+                                    </a>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                                        <li class="
+                                                ">
+                        <a
+                                                            href="https://btcprivate.org/nodes"
+                            
+                        >
+                            <i class=""></i>
+                                                            Active Nodes
+                                                    </a>
+                                                                             <li class="
+                                                 active ">
+                        <a
+                                                            href="https://btcprivate.org/explorer"
+                            
+                        >
+                            <i class=""></i>
+                                                            Block Explorer
+                                                    </a>
+                                                                             <li class="
+                                                ">
+                        <a
+                                                            href="https://btcprivate.org/pools"
+                            
+                        >
+                            <i class=""></i>
+                                                            Pools
+                                                    </a>
+                                                                             <li class="
+                                                ">
+                        <a
+                            				target="_blank"
+                                href="https://btcppay.com/"
+                            
+                        >
+                            <i class=""></i>
+                                                            BTCP Pay
+                                                    </a>
+                                                                             <li class="
+                                                ">
+                        <a
+                            				target="_blank"
+                                href="https://regtest.btcprivate.org"
+                            
+                        >
+                            <i class=""></i>
+                                                            Regtest UI
+                                                    </a>
+                                                                             <li class="
+                                                ">
+                        <a
+                            				target="_blank"
+                                href="https://testnet.btcprivate.org"
+                            
+                        >
+                            <i class=""></i>
+                                                            Testnet UI
+                                                    </a>
+                                                                             <li class="
+                                                ">
+                        <a
+                            				target="_blank"
+                                href="https://status.btcprivate.org"
+                            
+                        >
+                            <i class=""></i>
+                                                            Status Checks
+                                                    </a>
+                                                     </ul>
+                            </li>
+            
+</ul>
+
+        </div>
+      </div>
+    </nav>       
+    <!-- End Navbar -->
+  </div>  
+
+    <!-- Main Content Begin Here -->
+    <section id="main-content">
+        <section class="page-header">
+	<div class="container">		
+		<h2> Block Explorer</h2>
+		<span>  </span>
+		<ol class="breadcrumb">
+			<li><a href="https://btcprivate.org"> Home </a> </li>
+			<li class="active"> Block Explorer </li>
+		</ol>	
+	</div>	
+</section>
+<!-- Page Header End -->
+<section class="section " id="main-page">
+	<div class="container">			
+  		<div class="container">			<div class="pools-title row" style="text-align: center; "><br></div>			<div class="pools-content row">				<div class="pools-intro col-sm-10 col-sm-offset-1 col-xs-12">                                        					<div class="pools-content-title col-xs-12 text-center" data-aos="fade-down" data-aos-delay="400">                                                <img src="uploads/images/cubes.svg" width="75" data-aos="fade-down" data-aos-delay="400">						<h3 localization-tag="pools-content-official-title" style="text-align: center;">Block Explorer</h3>					</div>					<div data-aos="fade-up" data-aos-delay="400">					<div class="pools-content-message col-xs-12">						<p localization-tag="pools-content-official-text" style="text-align: center;"><span style="color: rgb(106, 108, 111); text-align: start;">Find detailed information about Bitcoin Private blocks, addresses, and transactions.</span><br></p>					</div>					<div class="pools-content-cta col-xs-12 text-center">						<a href="http://explorer.btcprivate.org/" target="_blank"><button class=" btn btn-sm btn-primary pools-btn btn btn-accent btn-whitepaper">Open Block Explorer</button></a>					</div>					</div>				</div>			</div></div>  	</div>
+</section>
+
+<div class="modal fade" id="live-editor-modal" tabindex="-1" role="dialog">
+<div class="modal-dialog  modal-lg">
+  <div class="modal-content">
+    <div class="modal-header bg-default">        
+        <button type="button " class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title"> Quick Live Editor </h4>
+    </div>
+    <div class="modal-body" id="sximo-modal-content">
+
+    	
+    </div>
+  </div>
+</div>
+</div>
+
+<link href="https://btcprivate.org/sximo5/js/plugins/summernote/dist/summernote.css" rel="stylesheet">
+<script type="text/javascript" src="https://btcprivate.org/sximo5/js/plugins/summernote/dist/summernote.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('.live_editor').on('click',function() {
+			$.get('https://btcprivate.org/secure/pages?task=update&id=103&mode=quicly',function(data){
+				$('#sximo-modal-content').html(data);	
+			})
+			//$('.editor').summernote({ height:450})
+		})
+
+	})
+</script>
+
+<style type="text/css">
+
+	.live-editor {
+		top: 20%;
+		position: fixed;
+		width: 30px;
+		background: #1d2b36 ;
+		
+		z-index: 10000;
+	}
+	.live-editor ul{ 
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	.live-editor ul li{ 
+		
+	}
+	.live-editor ul li a{ 
+		display: block;
+		line-height: 30px;
+		height: 30px;
+		text-align: center;
+		font-size: 13px;
+		color: #fff;
+	}	
+
+</style>    </section></section>
+    <!-- Main Content Begin Here -->
+
+
+    <!-- Footer Section -->
+    <footer class="bg-navy footer">
+		<div class="top-bar"></div>
+      <!-- Container Starts -->
+      <div class="container">
+        <!-- Row Starts -->
+        <div class="row section">
+    <!-- Footer Widget Starts -->
+    <div class="heading-block-clear"></div>
+    <div class="footer-widget col-md-4 col-xs-12 wow fadeIn">
+        <h3 class="small-title">
+            BTCP Market Cap
+        </h3>
+        <p localization-tag="resources-btcp-cap-text">Below is the current trading price of Bitcoin Private and its
+            market cap.</p>
+        <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+        <div class="coinmarketcap-currency-widget" data-currencyid="2575" data-base="USD" data-secondary="BTC">
+            <div style="border:2px solid #e1e5ea;border-radius: 10px;font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;min-width:285px;">
+                <div>
+                    <div style="float:right;width:67%;border: none;text-align:left;padding:5px 0px;line-height:25px;">
+                        <span style="font-size: 18px;"><a class="color-secondary" 
+                                href="https://coinmarketcap.com/currencies/bitcoin-private/?utm_medium=widget&amp;utm_campaign=cmcwidget&amp;utm_source=btcprivate.org&amp;utm_content=bitcoin-private"
+                                target="_blank" style="text-decoration: none;">Bitcoin Private (BTCP)</a></span>
+                        <br> <span style="font-size: 16px;">2.93 USD <span style="color:#009e73">(0.31%)</span></span>
+                        <br><span class="color-secondary" style="font-size: 12px;">0.00045712 BTC </span></div>
+                    <div style="text-align:center;padding:5px 0px;width:33%;"><img
+                            src="https://s2.coinmarketcap.com/static/img/coins/64x64/2575.png"></div>
+                </div>
+                <div style="border-top: 1px solid #e1e5ea;clear:both;">
+                    <div style="text-align:center;float:left;width:33%;font-size:12px;padding:12px 0;border-right:1px solid #e1e5ea;line-height:1.25em;">
+                        RANK <br><br> <span style="font-size: 17px; ">88</span></div>
+                    <div style="text-align:center;float:left;width:33%;font-size:12px;padding:12px 0 16px 0;border-right:1px solid #e1e5ea;line-height:1.25em;">
+                        MARKET CAP <br><br> <span style="font-size: 14px; ">$60.12 M <span
+                            style="font-size:9px">USD</span></span></div>
+                    <div style="text-align:center;float:left;width:33%;font-size:12px;padding:12px 0 16px 0;line-height:1.25em;">
+                        VOLUME (24H) <br><br> <span style="font-size: 14px; ">$85.98 K <span
+                            style="font-size:9px">USD</span></span></div>
+                </div>
+                <div style="border-top: 1px solid #e1e5ea;text-align:center;clear:both;font-size:10px;font-style:italic;padding:5px 0;">
+                    <a class="color-secondary" href="https://coinmarketcap.com?utm_medium=widget&amp;utm_campaign=cmcwidget&amp;utm_source=btcprivate.org&amp;utm_content=bitcoin-private"
+                       target="_blank" style="text-decoration: none;">Powered by
+                        CoinMarketCap</a></div>
+            </div>
+        </div>
+
+    </div><!-- Footer Widget Ends -->
+
+
+    <!-- Footer Widget Starts -->
+    <div class="footer-widget col-md-3 col-xs-12 wow fadeIn" data-wow-delay=".2s">
+        <h3 localization-tag="resources-press-inquiries-title">Press Inquiries</h3>
+        <p localization-tag="resources-press-inquiries-text">To reach out to the primary coordinators of the team for
+            any inquiries related to press, please contact us at <a href="/cdn-cgi/l/email-protection#e8989a8d9b9ba88a9c8b989a819e899c8dc6879a8f"><span class="__cf_email__" data-cfemail="08787a6d7b7b486a7c6b787a617e697c6d26677a6f">[email&#160;protected]</span></a>.
+        </p>
+
+        <h3 localization-tag="resources-press-kit-title">Press Kit</h3>
+        <p localization-tag="resources-press-kit-text">You can download a zip file containing <a
+                href="/presskit.zip?lang=pt_PT" download="">Bitcoin Private's branding assets here</a>.</p>
+
+        <h3 localization-tag="resources-official-links-title">Official Links</h3>
+        <p localization-tag="resources-official-links-text">You can view a <a
+                href="https://github.com/BTCP-community/official-links/blob/master/README.md" target="_blank">directory
+            of official Bitcoin Private links here</a>.</p>
+
+    </div><!-- Footer Widget Ends -->
+
+
+    <!-- Footer Widget Starts -->
+    <div class="footer-widget col-md-2 col-xs-12 wow fadeIn" data-wow-delay=".8s">
+        <h3 class="small-title">
+            We're Social
+        </h3>
+        <span style="text-align:center;display:inline;margin-right:10px"><i class="fa fa-facebook"></i></span>
+        <a href="https://www.facebook.com/bitcoinprivate/" class="color-facebook" target="_blank">Facebook</a>
+        <br>
+        <span style="text-align:center;display:inline;margin-right:6px"><i class="fa fa-twitter"></i></span>
+        <a href="https://twitter.com/bitcoinprivate" class="color-twitter" target="_blank">Twitter</a>
+        <br>
+        <span style="text-align:center;display:inline;margin-right:7px"><i class="fa fa-youtube"></i></span>
+        <a href="https://www.youtube.com/c/BitcoinPrivate" class="color-youtube" target="_blank">YouTube</a>
+        <br>
+        <span style="text-align:center;display:inline;margin-right:6px"><i
+                class="fa fa-reddit-alien"></i></span>
+        <a href="https://www.reddit.com/r/BTC_Private/" class="color-reddit" target="_blank">Reddit</a>
+        <br>
+        <span style="text-align:center;display:inline;margin-right:7px"><i class="fa fa-instagram"></i></span>
+        <a href="https://www.instagram.com/btcprivateofficial" class="color-instagram"
+           target="_blank">Instagram</a>
+        <br>
+        <span style="text-align:center;display:inline;margin-right:6px"><i class="fa fa-medium"></i></span>
+        <a href="https://medium.com/@bitcoinprivate" class="color-medium" target="_blank">Medium</a>
+        <br>
+        <span style="text-align:center;display:inline;margin-right:6px"><i class="fa fa-comments"></i></span>
+        <a href="https://discord.gg/46U2p4m" class="color-discord" target="_blank">Discord</a>
+        <br>
+        <span style="text-align:center;display:inline;margin-right:6px"><i class="fa fa-telegram"></i></span>
+        <a href="https://t.me/BTCPrivate" class="color-telegram" target="_blank">Telegram</a>
+        <br>
+        <span style="text-align:center;display:inline;margin-right:7px"><i class="fa fa-github"></i></span>
+        <a href="https://github.com/BTCPrivate/BitcoinPrivate" class="color-github" target="_blank">GitHub</a>
+    </div><!-- Footer Widget Ends -->
+
+
+    <!-- Footer Widget Starts -->
+    <div data-wow-delay=".5s" class="footer-widget col-md-3 col-xs-12 wow fadeIn">
+        <h3 class="small-title">
+            Block Explorer
+        </h3>
+        <p localization-tag="resources-explorer-text">The easiest way to view the latest blocks and transactions!</p>
+        <a href="http://explorer.btcprivate.org" target="_blank">
+            <button class="explorer-btn btn btn-accent btn-spacer btn-whitepaper" style="width:100%"
+                    localization-tag="resources-explorer-cta">BTCP Official Block Explorer
+            </button>
+        </a>
+
+        <h3 localization-tag="resources-btcp-exchange-title">Quick Exchange</h3>
+        <p localization-tag="resources-btcp-exchange-text">Instantly exchange dozens of coins for BTCP.</p>
+        <a href="http://exchange.btcprivate.org" target="_blank">
+            <button class="exchange-btn btn btn-accent btn-spacer btn-whitepaper" style="width:100%"
+                    localization-tag="resources-btcp-exchange-cta">BTCP Instant Exchange
+            </button>
+        </a>
+
+        <!--
+        <ul class="nav">
+             <li class="nav-item">
+              <a class="nav-link active" href="https://btcprivate.org">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://btcprivate.org/privacy">Privacy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://btcprivate.org/toc">Disclaimer</a>
+            </li>
+        </ul>
+        -->
+    </div><!-- Footer Widget Ends -->
+        </div><!-- Row Ends -->
+ 
+
+      <!-- Copyright -->
+      <div id="copyright">
+        <div class="container">
+          <div class="row text-center">
+            
+              <p class="copyright-text">
+                ©  2019 <b>BitcoinPrivate </b>. All rights reserved.
+              </p>
+            
+          </div>
+        </div>
+      </div>
+      <!-- Copyright  End-->
+      </div> <!--Container End-->
+    </footer>
+    <!-- Footer Section End-->
+
+    <!-- JavaScript & jQuery Plugins -->
+    <!-- jQuery Load -->
+
+<div class="modal fade" id="sximo-modal" tabindex="-1" role="dialog"><!--Modal Start-->
+<div class="modal-dialog  ">
+  <div class="modal-content">
+    <div class="modal-header bg-default">
+        
+        <button type="button " class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Modal title</h4>
+    </div>
+    <div class="modal-body" id="sximo-modal-content">
+
+    </div>
+
+  </div>
+</div>
+</div><!-- Modal End -->
+    
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/frontend/default/js/script.js"></script>
+
+  </body>
+</html>
